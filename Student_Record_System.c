@@ -131,13 +131,20 @@ int main () {
         printf("Enter Choice: ");
         scanf("%d", &choice);
         switch(choice) {
-            case 1: addStudent(); break;
-            case 2: viewAll(); break;
-            case 3: searchStudent(); break;
-            case 4: showStatistics(); break;
-            case 5: saveToFile(); break;
-            case 6: printf("Good Bye!!\n"); break;
-            default: printf("Invalid!!\n"); break;
+            case 1: addStudent(); 
+                break;
+            case 2: viewAll(); 
+                break;
+            case 3: searchStudent(); 
+                break;
+            case 4: showStatistics(); 
+                break;
+            case 5: saveToFile(); 
+                break;
+            case 6: printf("Good Bye!!\n"); 
+                break;
+            default: printf("Invalid!!\n"); 
+                break;
         }
     } while(choice != 5);
     return 0;
